@@ -1,0 +1,1 @@
+select SongName from songs where danceability < 0.6 and energy < 0.6;

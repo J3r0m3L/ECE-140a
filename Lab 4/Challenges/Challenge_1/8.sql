@@ -1,0 +1,1 @@
+select count(SongName) from songs where tempo > (select avg(tempo) from songs);

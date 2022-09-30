@@ -1,0 +1,1 @@
+select avg(speechiness) from songs group by artist having count(songName) > 3; 

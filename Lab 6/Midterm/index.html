@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title> Duong Lam Miderm</title>
+  <link rel="StyleSheet" href="basic.css">
+</head>
+
+<body>
+  <h1>Duong Lam Midterm</h1>
+  <form>
+    <label for="sensor">Sensor:</label>
+    <select name="sensor" id="sensor">
+      <option value="1">Ultra Sonic</option>
+      <option value="2">Photo Resistor</option>
+    </select><br>
+    <label for="distance">Distance Range (cm):</label>
+    <select name="distance" id="distance">
+      <option value=1>>=150</option>
+      <option value=2>100-150</option>
+      <option value=3>50-100</option>
+      <option value=4>0-50</option>
+      <option value=5>any</option>
+    </select><br>
+    <label for="voltage">Voltage Range (V):</label>
+    <select name="voltage" id="voltage">
+      <option value=1>>=1</option>
+      <option value=2>0.75-1</option>
+      <option value=3>0.5-0.75</option>
+      <option value=4>0.25-0.5</option>
+      <option value=5>0-0.25</option>
+      <option value=6>any</option>
+    </select>
+  </form><br>
+  <input type="button" value="Submit" onclick="submit()"><br>
+  <input type="button" value="Buzz" onclick="buzzing()"><br>
+  <div>
+    <div id="error"></div>
+    <br>
+    <div id="all_values">
+    </div>
+  </div>
+  <script type="text/javascript" src="rest.js">
+  </script>
+</body>
+
+</html>

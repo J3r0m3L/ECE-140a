@@ -1,0 +1,1 @@
+select artist from songs group by artist order by sum(duration_ms) desc;

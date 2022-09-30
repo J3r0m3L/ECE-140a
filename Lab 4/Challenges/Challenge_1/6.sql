@@ -1,0 +1,1 @@
+select avg(energy) from songs where artist = 'Post Malone';
