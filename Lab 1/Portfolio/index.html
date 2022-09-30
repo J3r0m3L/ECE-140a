@@ -1,0 +1,167 @@
+<!-- This is how comments are written in HTML. Each  TODO represents one task. Full points will be awarded only if the intended output and explanation (wherever asked) are provided. At all places where explanations are required, answer them in README.md. All styling references should always be 'inline' unless specified otherwise -->
+
+<!-- TODO: Is <!DOCTYPE html> an HTML tag? What is it doing in an HTML file? Explain in the README.md file. Write "ANS1" at the beginning of your answer. -->
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<!-- TODO: Change title to your name. Explain what changed in the webpage display on doing this in your README. Write "ANS2" at the beginning of your answer. -->
+	<title>Jerome Lam</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<!-- TODO: Add a background color to the page.  -->
+
+<body>
+	<!-- TODO: Change the heading to your name. Use the "style" attribute to increase the font size to 50px.  -->
+
+	<h1>Jerome Lam</h1>
+
+	<!-- TODO: Change the image to a picture of yours. Create a folder named 'images' in the same location as this html file and link the image. Use the <img> tag. Set the width of the image to 200.  -->
+	<img src="./images/me.jpg" alt="bio_pic" width="200">
+	<!-- TODO: Change the intro text to your bio  -->
+	<p> Hello! My name is Jerome Lam. I'm a fourth year Electrical Engineering Major in the depth of Machine Learning. I 
+		like hiking, movies, and video games. I have competed in a couple hackathons and have some experience in web-development.
+	</p>
+
+	<!-- TODO: 
+	(i) Create a link name Music. This should direct to music.html, a file in the same folder as this file
+	(ii) Creat a new HTML file and name it music.html; feel free to reuse some code from this file.
+	(iii) Make an ordered list your top 3 artists. 
+	(iv) Embed one of their videos in the webpage. -->
+	<a href="music.html">Music</a>
+
+
+
+	<!-- The hr tag adds a horizontal line to the webpage. It can be used to separate one section from the other -->
+	<hr>
+
+	<!-- TODO:
+	(i) Notice how we start with one tag and close with another. How does this even work? Explain in your README.md file. Write "ANS3" at the beginning of your answer.
+	(ii) Change the heading to a h2 tag -->
+
+	<h2>My schedule</h2>
+
+	<!-- TODO: Insert a table with your schedule - either classes or other activities. Use the <table> tag to create the table. Make the days of the week and the time slots (columns and rows respectively) as headings with the <th> tag. Fill other cells of the table using the <tr> and <td> tags  -->
+	<table>
+		<tr>
+			<th>Times</th>
+			<th>Monday</th>
+			<th>Tuesday</th>
+			<th>Wednesday</th>
+			<th>Thursday</th>
+			<th>Friday</th>
+		</tr>
+		<tr>
+			<th>11am</th>
+			<td></td>
+			<td>ECE 140A Lecture</td>
+			<td></td>
+			<td>ECE 140A Lecture</td>
+			<td></td>
+		</tr>
+		<tr>
+			<th>12pm</th>
+			<td>ECE 140A Lab</td>
+			<td>ECE 140A Lecture</td>
+			<td></td>
+			<td>ECE 140A Lecture</td>
+			<td></td>
+		</tr>
+		<tr>
+			<th>1pm</th>
+			<td>ECE 140A Lab</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<th>2pm</th>
+			<td></td>
+			<td>ECE 141A Lecture</td>
+			<td></td>
+			<td>ECE 141A Lecture</td>
+			<td></td>
+		</tr>
+		<tr>
+			<th>3pm</th>
+			<td></td>
+			<td>ECE 141A Lecture</td>
+			<td></td>
+			<td>ECE 141A Lecture</td>
+			<td></td>
+		</tr>
+		<tr>
+			<th>4pm</th>
+			<td>ECE 141A Lab</td>
+			<td>ECE 172A Lecture</td>
+			<td></td>
+			<td>ECE 172A Lecture</td>
+			<td></td>
+		</tr>
+		<tr>
+			<th>5pm</th>
+			<td>ECE 175A Lecture</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<th>6pm</th>
+			<td>ECE 175A Lecture</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<th>7pm</th>
+			<td>ECE 175A Lecture</td>
+			<td></td>
+			<td>ECE 172A Discussion</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<th>8pm</th>
+			<td>ECE 175A Discussion</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+	</table>
+	<hr>
+
+	<!-- TODO: 
+	(i) Open the inspect view in your browser and find the 'Contact Me' section
+	(ii) Edit these options in the browser itself. Italicise the 'Contact Me' heading and change the font to 'Times New Roman'. 
+	(iii) Now refresh the page. Do you see any change? Explain what happened. Write "ANS4.1" at the beginning of your answer.
+	(iv) Make the style changes in the HTML file and now check the webpage. Do you see the changes upon refreshing? Explain. Write "ANS4.2" at the beginning of your answer. -->
+	<p style="color:blue">Contact Me: </p>
+
+	<!-- TODO: Make all the below links appear as bullet points (HINT: unordered lists) -->
+	<ul>
+	<!-- TODO: Change 'My Webpage' to the 'ECE UCSD Homepage'; can you make the link to open in a new tab upon clicking? -->
+		<li>
+			<a href="http://artofproduct.us/" target="_blank">ECE UCSD Homepage</a>
+		</li>
+		<!-- TODO: 
+		Link the resume to your resume (either in a folder same as this file or an external drive link). The file should be downloaded on clicking. If you do not want to link a resume, embed another PDF of your choice and change the name accordingly -->
+		<li>
+			<a href="Jerome_Lam_Resume.pdf">Resume</a>
+		</li>
+		<!-- TODO: Add a link to your email. Make the default subject of the email as "Hello" -->
+		<li>
+			<a href="mailto:j2lam@ucsd.edu?subject = Hello">Email</a>
+		</li>
+	</ul>
+	<!-- TODO: Extra: Can you add a row of icons pointing to your social media, github etc. after this list?  -->
+
+</body>
+</html>
